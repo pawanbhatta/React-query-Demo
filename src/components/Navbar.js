@@ -18,6 +18,12 @@ const Navbar = () => {
           <div className="link">
             <Link to="/rq-super-heroes">RQ Super Heroes</Link>
           </div>
+          <div className="link">
+            <Link to="/rq-parallel">RQ Parallel</Link>
+          </div>
+          <div className="link">
+            <Link to="/rq-dynamic-parallel">RQ Dynamic Parallel</Link>
+          </div>
         </div>
       </div>
     </div>

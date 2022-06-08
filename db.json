@@ -14,5 +14,18 @@
             "name": "Wonder Woman",
             "alterEgo": "Princess Diana"
         }
+    ],
+    "friends": [{
+            "id": 1,
+            "name": "Ashish Bhattarai"
+        },
+        {
+            "id": 2,
+            "name": "Sagar Neupane"
+        },
+        {
+            "id": 3,
+            "name": "Rahul Chaurasia"
+        }
     ]
 }
