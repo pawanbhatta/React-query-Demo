@@ -3,10 +3,10 @@ import Navbar from "./Navbar";
 
 const HomePage = () => {
   return (
-    <div>
+    <h4>
       {/* <Navbar /> */}
       Home page
-    </div>
+    </h4>
   );
 };
 
