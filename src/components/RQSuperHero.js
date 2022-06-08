@@ -24,8 +24,8 @@ const RQSuperHero = () => {
   if (isError) return notify(error.message, true);
 
   return (
-    <div>
-      <h3>RQSuperHero Details</h3>
+    <div className="superHeroes">
+      <h3>RQSuperHero Details Here</h3>
       <h5> Details of hero {heroId} </h5>
       <p> Name : {data?.data.name} </p>
       <p> AlterEgo : {data?.data.alterEgo} </p>

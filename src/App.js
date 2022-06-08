@@ -25,7 +25,9 @@ function App() {
           path="rq-dependent"
           element={<DependentQueries email="pawanbhatta00@gmail.com" />}
         />
-        <Route path="rq-parallel" element={<ParallelQueries />} />
+        <Route path="rq-parallel" element={<ParallelQueries />}>
+          <Route path=":heroId" element={<RQSuperHero />} />
+        </Route>
         <Route
           path="rq-dynamic-parallel"
           element={<DynamicParallel heroIds={[1, 3]} />}

@@ -17,7 +17,27 @@ const DynamicParallel = ({ heroIds }) => {
   );
 
   console.log({ queryResults });
-  return <div>DynamicParallel</div>;
+  return (
+    <div>
+      <h4>DynamicParallel</h4>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <span style={{ color: "blue", fontWeight: "bolder" }}> CLICK </span> on
+        the react query
+        <span style={{ color: "purple", fontWeight: "bolder" }}>
+          {" "}
+          DEVTOOLS{" "}
+        </span>
+        at the bottom right for{" "}
+        <span style={{ color: "brown", fontWeight: "bolder" }}>RESULTS</span>
+      </div>
+    </div>
+  );
 };
 
 export default DynamicParallel;

@@ -20,7 +20,7 @@ const ParallelQueries = () => {
       <h4>ParallelQueries</h4>
       <div className="superHeroes">
         {/* <Navbar /> */}
-        <h1>RQ Super Heroes Page</h1>
+        <h1>Super Hero List</h1>
         <div>
           {superHeroes?.data.map((d) => {
             return (
@@ -31,9 +31,12 @@ const ParallelQueries = () => {
           })}
         </div>
       </div>
+      <h5 style={{ textAlign: "center", color: "red" }}>
+        Fetched in parallel with
+      </h5>
       <div className="superHeroes">
         {/* <Navbar /> */}
-        <h1>RQ Super Heroes Page</h1>
+        <h1>Friends List</h1>
         <div>
           {friends?.data.map((d) => {
             return (
@@ -44,6 +47,8 @@ const ParallelQueries = () => {
           })}
         </div>
       </div>
+
+      <hr />
       <Outlet />
 
       <ToastContainer />
