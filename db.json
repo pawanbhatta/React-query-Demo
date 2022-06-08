@@ -35,5 +35,38 @@
     }],
     "skills": [
         { "id": "react", "projects": ["SMS", "HMS", "LMS", "SNS"] }
+    ],
+    "colors": [{
+            "id": 1,
+            "label": "lime"
+        },
+        {
+            "id": 2,
+            "label": "green"
+        },
+        {
+            "id": 3,
+            "label": "purple"
+        },
+        {
+            "id": 4,
+            "label": "red"
+        },
+        {
+            "id": 5,
+            "label": "blue"
+        },
+        {
+            "id": 6,
+            "label": "yellow"
+        },
+        {
+            "id": 7,
+            "label": "cyan"
+        },
+        {
+            "id": 8,
+            "label": "magneta"
+        }
     ]
 }

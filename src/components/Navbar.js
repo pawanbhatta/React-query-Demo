@@ -27,6 +27,9 @@ const Navbar = () => {
           <div className="link">
             <Link to="/rq-dependent">RQ Dependent</Link>
           </div>
+          <div className="link">
+            <Link to="/rq-paginated">RQ Paginated</Link>
+          </div>
         </div>
       </div>
     </div>

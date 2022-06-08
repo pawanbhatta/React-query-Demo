@@ -23,7 +23,7 @@ const onError = (error) => {
 const RQSuperHeroesPage = () => {
   const results = useSuperHeroesData(onSuccess, onError);
 
-  const { isLoading, data, error, isError, isFetching, refetch } = results;
+  const { isLoading, data, isFetching, refetch } = results;
 
   if (isLoading || isFetching) return <h4>Loading.....</h4>;
 
@@ -33,7 +33,9 @@ const RQSuperHeroesPage = () => {
     <div className="superHeroes">
       {/* <Navbar /> */}
       <h1>RQ Super Heroes Page</h1>
-      <button onClick={refetch}>Fetch Super Heroes</button>
+      <button className="rqbtn" onClick={refetch}>
+        Fetch Super Heroes
+      </button>
       <div>
         {data?.data.map((d) => {
           return (
