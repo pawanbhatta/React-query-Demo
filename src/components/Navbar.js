@@ -24,6 +24,9 @@ const Navbar = () => {
           <div className="link">
             <Link to="/rq-dynamic-parallel">RQ Dynamic Parallel</Link>
           </div>
+          <div className="link">
+            <Link to="/rq-dependent">RQ Dependent</Link>
+          </div>
         </div>
       </div>
     </div>

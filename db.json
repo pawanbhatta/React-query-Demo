@@ -27,5 +27,13 @@
             "id": 3,
             "name": "Rahul Chaurasia"
         }
+    ],
+    "users": [{
+        "id": "pawanbhatta00@gmail.com",
+        "skill": "react"
+
+    }],
+    "skills": [
+        { "id": "react", "projects": ["SMS", "HMS", "LMS", "SNS"] }
     ]
 }
