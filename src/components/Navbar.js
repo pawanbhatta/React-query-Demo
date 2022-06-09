@@ -30,6 +30,9 @@ const Navbar = () => {
           <div className="link">
             <Link to="/rq-paginated">RQ Paginated</Link>
           </div>
+          <div className="link">
+            <Link to="/rq-infinite">RQ Infinite</Link>
+          </div>
         </div>
       </div>
     </div>
